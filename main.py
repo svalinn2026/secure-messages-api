@@ -29,6 +29,7 @@ USERS = {
     "Raghad@Svalinn.edu.sa": "1111",
 }
 
+
 def _b64(x: bytes) -> str:
     return base64.b64encode(x).decode("ascii")
 def _b64d(x: str) -> bytes:
