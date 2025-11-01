@@ -23,10 +23,10 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 USERS = {
-    "Tala@Svalinn.edu.sa": "Tala1234",
-    "Shahd@Svalinn.edu.sa": "Shahd1234",
-    "Renad@Svalinn.edu.sa": "Renad1234",
-    "Raghad@Svalinn.edu.sa": "Raghad1234",
+    "Tala@Svalinn.edu.sa": "1111",
+    "Shahd@Svalinn.edu.sa": "1111",
+    "Renad@Svalinn.edu.sa": "1111",
+    "Raghad@Svalinn.edu.sa": "1111",
 }
 
 def _b64(x: bytes) -> str:
